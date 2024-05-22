@@ -17,12 +17,14 @@ JPEG compression involves several steps to reduce the size of an image while mai
 
 #### 1. Discrete Cosine Transform (DCT)
 The DCT is applied to 8x8 blocks of the image, transforming the pixel values into frequency components. The DCT prioritizes low-frequency components (which contain more visual information) and de-emphasizes high-frequency components (which are less visually important).
+
 ![dct visualization](https://github.com/nicolasf10/steganography/blob/main/dctimg.png?raw=true)
 #### 2. Quantization
 Once the image has been transformed using DCT, the resulting coefficients are quantized. This step reduces the precision of the frequency coefficients, allowing more significant compression.
 
 #### 3. Run-Length Encoding (RLE)
 After quantization, many of the higher-frequency coefficients will be zero. The coefficients are read in a zigzag pattern, and RLE is used to efficiently compress long sequences of zeros.
+
 ![zig zag visualization](https://github.com/nicolasf10/steganography/blob/main/zigzagimg.png?raw=true)
 
 #### 4. Huffman Coding
@@ -30,6 +32,7 @@ Finally, Huffman coding is applied to further compress the data. This lossless c
 
 ### Neural Network Class
 The Neural Network class in this project is responsible for creating, training, and deploying neural networks for steganalysis. Below is a simplified explanation of its components and workflow:
+
 ![neural network visualization](https://github.com/nicolasf10/steganography/blob/main/neuralnetwork.png?raw=true)
 
 1. **Initialization**: The network’s architecture is defined, usually involving multiple layers of neurons, including input, hidden, and output layers.
