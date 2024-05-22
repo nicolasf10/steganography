@@ -1,5 +1,10 @@
 # Steganography and Steganalysis Tool
 Welcome to the Steganography and Steganalysis tool. This project focuses on embedding hidden information (steganography) and detecting hidden information (steganalysis) within JPEG images. Below is a detailed description of the project components and several key algorithms used.
+Below are some screenshots of a web application made with the tools in this repository:
+
+![app1](https://github.com/nicolasf10/steganography/blob/main/app1.png?raw=true)
+![app3](https://github.com/nicolasf10/steganography/blob/main/app2.png?raw=true)
+![app3](https://github.com/nicolasf10/steganography/blob/main/app3.png?raw=true)
 
 ## Project Components
 ### 1. Neural Network Library
