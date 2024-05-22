@@ -1,0 +1,18 @@
+Size
+Huffman tree
+Data
+Encoded with:
+- DCT
+- Zig zag ordering
+- RLE
+- Huffman coding
+
+------
+JPEG Quality
+Integer Height
+Integer Width
+Size of frequency table (in bytes)
+Frequency table
+Size of encoded data (in bytes)
+Size of RLE sequence
+Encoded data
